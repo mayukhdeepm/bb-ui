@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-@media only screen and (max-width: 590px) {
+@media only screen and (max-width: 480px) {
     
     .container {
         height: 100%;
@@ -21,7 +21,7 @@
     .button img {
         margin-right: 0;
         display: block;
-        height: 60px;
+        height: 45px;
         margin-top: -8px;
     }
     .container2 {
@@ -37,17 +37,74 @@
         margin-top: 15px;
     }
     .logo img {
-        height: 40px;
+        height: 38px;
     }
     .text {
         text-align: left;
-        font-size: 25px;
+        font-size: 18px;
         margin-left: 30px;
-        margin-top: -5px;
+        margin-top: -15px;
         font-family: 'Shippori Antique B1', sans-serif;
     }
     .text p {
-        margin-top: 15px;
+        margin-top: 8px;
+    }
+    .button-down {
+        margin: 0;
+        margin-top: 40px;
+    }
+    .button-down img {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        height: 22px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    
+    .container {
+        height: 100%;
+        width: 100%;
+    }
+    
+    .slider {
+        height: 450px;
+    }
+    .button {
+        display:flex;
+        justify-content: center;
+    }
+    .button img {
+        margin-right: 0;
+        display: block;
+        height: 40px;
+        margin-top: -8px;
+    }
+    .container2 {
+        height: 100%;
+        width: 100%;
+        background-color: #EEE7E7; /* Green */
+        position: fixed;
+        margin-top: 8px;
+        padding: 0;
+    }
+    .logo {
+        padding: 30px;
+        margin-top: 7px;
+    }
+    .logo img {
+        height: 27px;
+    }
+    .text {
+        text-align: left;
+        font-size: 15px;
+        margin-left: 30px;
+        margin-top: -15px;
+        font-family: 'Shippori Antique B1', sans-serif;
+    }
+    .text p {
+        margin-top: 8px;
     }
     .button-down {
         margin: 0;
