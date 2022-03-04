@@ -1,0 +1,62 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 590px) {
+    
+    .container {
+        height: 210pxx;
+        width: 60%;
+    }
+    
+    .slider {
+        height: 270px;
+    }
+    .button {
+        display:flex;
+        justify-content: center;
+    }
+    .button img {
+        margin-right: 0;
+        display: block;
+        height: 30px;
+        margin-top: -8px;
+    }
+    .container2 {
+        height: 100%;
+        width: 60%;
+        background-color: #EEE7E7; /* Green */
+        position: fixed;
+        margin-top: 8px;
+        padding: 0;
+    }
+    .logo {
+        padding: 20px;
+    }
+    .logo img {
+        height: 28px;
+    }
+    .text {
+        text-align: left;
+        font-size: 14px;
+        margin-left: 20px;
+        margin-top: -5px;
+        font-family: 'Shippori Antique B1', sans-serif;
+    }
+    .text p {
+        margin-top: 10px;
+    }
+    .button-down {
+        margin: 0;
+        margin-top: 30px;
+    }
+    .button-down img {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        height: 18px;
+    }
+}
+
