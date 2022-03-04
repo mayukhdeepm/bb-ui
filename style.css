@@ -11,9 +11,7 @@
         width: 100%;
     }
     
-    .slider {
-        height: 450px;
-    }
+    
     .button {
         display:flex;
         justify-content: center;
